@@ -97,6 +97,7 @@ public class Main
         int count = 0;
         if(user.isInfected)
         {
+            user.isInfected = true;
             totalInfected.add(user);
 
             // first check to get a count of how many coached users are infected and keep track of those by adding to totalInfected list
